@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1320px) {
+    header{
+        padding: 0 50px;
+    }
+    .b1a{
+        width: 50%;
+        height: 100%;
+      }
+}
+
+@media only screen and (max-width: 1100px) {
+    header{
+        padding: 0 30px;
+    }
+    .b1a{
+        width: 70%;
+        height: 100%;
+      }
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 4px;
+        background: #2c46ab  ;
+        margin: 6px 0;
+    }
+
+
+
+    .nav-bar{
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #2c46ab;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: o.5s; 
+    }
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+    .nav-bar ul li a{
+         margin-bottom: 12px ;
+        color: white;
+    }
+    .nav-bar ul li a:hover {
+        color: black;
+        border: 1px solid black;
+    }
+
+    .nav-bar ul li a.active{
+        color: black
+    }
+
+    .open.active{
+        display: none;
+        }
+    .close.active{
+            display: block;
+        }
+
+    .b1a{
+        width: 100%;
+        height: 100%;
+      }
+
+    .b2a{
+      width: 100%;
+    }
+    
+    .b2b{
+      width: 100%;
+    }
+
+    .b2{
+      flex-direction: column;    
+    }
+
+    .b2b-ai h4,
+    .b2b-aii h4{
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+  
+    .wb h2{
+      font-size: 1.25rem;
+    }
+    .wa h2,
+    .wc h2{
+      font-size: 1.25rem;
+    }
+  
+    .wb p{
+      font-size: 1rem;
+    }
+    .wa p,
+    .wc p{
+       font-size: 1rem;
+  
+    }
+
+    .work{
+      height: 100px;
+      margin-top: 3%;
+      display: flex;
+  
+    }
+
+    .pbl-0{
+      flex-direction: column;
+    }
+    .pbl-a{
+      width: 96%;
+      margin: 2%;
+    }
+
+    .pbl-b{
+      margin-right: 2%;
+    }
+
+    .pb{
+      flex-direction: column;
+    }
+    
+    .pb2{
+      height: auto;
+    }
+
+    .pbl{
+      height: auto;
+    }
+
+    
+    .s-b{
+      flex-direction: column;
+    }
+
+    .sub1{
+      flex-direction: column;
+      height: auto;
+    }
+
+    
+  .newsletter {
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .sub1 h3,
+  .newsletter input{
+    text-align: center;
+  }
+
+  .sub{
+    height: 250px;
+  }
+
+  .f2-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .copy-tag {
+    padding-top: 10px;
+    text-align: right;
+  }
+
+  .footer-icon {
+    padding-top: 25px;
+    margin-right: -10px;
+  }
+
+  .footer {
+    background-color: #161513;
+    height: 250px;
+    color: #e6e3de;
+
+  }
+
+  .f1{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 40px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    h4 {
+      font-size: 1.25rem;
+    }
+  
+    .profile-pic {
+      width: 30rem;
+    }
+  
+    .main-h1 {
+      margin: 0;
+    }
+  
+    .ston {
+      text-align: center;
+      display: inline;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .inner-img1 {
+      right: -30rem;
+      top: -18rem;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }
+  
+    .profile-pic {
+      width: 34rem;
+    }
+  
+    .ston {
+      text-align: center;
+      display: inline;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .demo22 {
+      padding-top: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .profile-pic {
+      display: none;
+    }
+  
+    .inner-img1 {
+      font-size: 20rem;
+      right: -12rem;
+      top: -2.5rem;
+    }
+  
+    .inner-img2 {
+      font-size: 20rem;
+      right: 12.5rem;
+      top: 0rem;
+    }
+  }
+  
+  .column a{
+  text-decoration: none;
+  color: black;
+  }
